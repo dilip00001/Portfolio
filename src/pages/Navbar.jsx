@@ -32,7 +32,7 @@ function Navbar() {
       </nav>
       <nav id="hamburger-nav">
         <h3 className="logo">
-          <a href="#profile">pratham.me</a>
+          <a href="#profile">Dilip.iam</a>
         </h3>
         <div className={`hamburger-menu ${menuOpen ? "open" : ""}`}>
           <div className="hamburger-icon" onClick={toggleMenu}>

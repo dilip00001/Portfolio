@@ -126,6 +126,7 @@ a {
 .hamburger-menu {
   position: relative;
   display: inline-block;
+  
 }
 
 .hamburger-icon {
@@ -149,20 +150,39 @@ a {
   top: 100%;
   right: 0;
   background-color: white;
-  width: fit-content;
+  width:100%;
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
+  /* 
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3 ease-in-out; */
+  /* align-items: center;
+  position: absolute;
+  background-color: #fff;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  left: 0;
+  /* position: fixed; */
+  /* text-align: center;
+  top: 0;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  z-index: 300; */
 }
 
 .menu-links a {
-  display: block;
+  display: flex;
   padding: 10px;
   text-align: center;
   font-size: 1.5rem;
   color: black;
   text-decoration: none;
   transition: all 0.3 ease-in-out;
+  flex-direction: column;
+  
 }
 
 .menu-links li {
@@ -171,6 +191,30 @@ a {
 
 .menu-links.open {
   max-height: 300px;
+  width: 100vh;
+  height:100vh;
+  /* display: flex; */
+   
+  max-width: max-content;
+   background-color: white;
+ 
+  
+  justify-content: center;
+  align-items: center;
+  padding: 10rem;
+  position: absolute;
+  
+
+  /* position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+  width: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
 }
 
 .hamburger-icon.open span:first-child {
@@ -203,6 +247,8 @@ a {
   }
   #hamburger-nav {
     display: flex;
+    /* display: block;*/
+    /* position: absolute; */
   }
   .arrow {
     display: none;
@@ -762,7 +808,7 @@ a {
 .projects-grid .pro__1 {
   flex-direction: row;
   gap: 8rem;
-  height: 30rem;
+  height: 40rem;
   padding: 2rem;
 }
 @media (max-width: 1020px) {
