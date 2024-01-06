@@ -1,6 +1,6 @@
 import React from "react";
 import waveHand from "../assets/waving-hand.png";
-import myResume from "../assets/My resume. (3).pdf";
+import myResume from "../assets/DILIP_KUMARD_Resume.pdf";
 
 const skillsImg1 = "https://skillicons.dev/icons?i=html,css";
 const skillsImg2 = "https://skillicons.dev/icons?i=js,react";
